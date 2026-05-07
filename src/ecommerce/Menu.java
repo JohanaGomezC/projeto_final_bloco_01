@@ -2,11 +2,21 @@ package ecommerce;
 
 import java.util.Scanner;
 
+import ecommerce.model.Produto;
+import ecommerce.model.Roupa;
+
 public class Menu {
+	
+	private static final Scanner leia = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
+		//Teste classe Roupa
+		Roupa r1 = new Roupa(2, 2, "Bermuda Jeans", 80.0f, "M", 1);
+		r1.visualizar();
+		
+		Roupa r2 = new Roupa(1, 2, "Vestido Floral", 150.0f, "P", 2);
+		r2.visualizar();
 		
 		int opcao;
 		
