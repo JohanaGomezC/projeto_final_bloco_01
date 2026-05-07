@@ -58,9 +58,6 @@ public abstract class Produto {
 		case 2:
 			categoria = "Masculino";
 			break;
-		case 3:
-			categoria = "Infantil";
-			break;
 		}
 
 		System.out.println("\n\n*****************************************************");
